@@ -2,7 +2,7 @@
 
 This repo includes the PyTorch implementation of the [MiCE paper](https://openreview.net/pdf?id=gV3wdEOGy_V), which is a unified probabilistic clustering framework that simultaneously exploits the discriminative representations
 learned by contrastive learning and the semantic structures captured by a latent mixture model. 
-
+ 
 ### Requirements and Installation
 We recommended the following dependencies.
 
@@ -42,4 +42,4 @@ CUDA_VISIBLE_DEVICES=0 python eval_MiCE.py \
 ```
 
 #### Acknowledgments
-Part of this code is inspired by [CMC](https://github.com/HobbitLong/CMC)
+Part of this code is inspired by [CMC](https://github.com/HobbitLong/CMC) and [Max-Mahalanobis Training](https://github.com/P2333/Max-Mahalanobis-Training)
